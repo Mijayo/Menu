@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <title>UF4 Diego Vallejo</title>
+</head>
+
+<body>
+  <div id="d1" class="contNav1-2 ocultar" onclick="f1('d1')">
+    <div class="envuelve">
+      <div class="navNivel1">
+        <div id="b2" class="bars"><i class="fas fa-times"></i></div>
+        <div class="subMenu">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sticky">
+    <div class="contNav mostrar" onclick="f2()">
+      <div class="envuelve">
+        <div class="navNivel1">
+          <div id="b1" class="bars"><i class="fas fa-bars"></i></div>
+          <div class="cursosIFP">
+            <div id="cursosTXT">
+              <div class="flechaS"><i class="fas fa-caret-left"></i></div>
+              <div class="filtro">
+                <p>1 - daw </p>
+              </div>
+              <div class="flechaS"><i class="fas fa-caret-right"></i></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navNivel2">
+          <div class="circulo">
+            <div class="pruGre">
+              <p id="aproTXT"></p>
+            </div>
+            <div class="caja11">
+              <p class="txt1">Aprobados</p>
+            </div>
+          </div>
+
+          <div class="circulo">
+            <div class="pruBlu">
+              <p id="aproTXT2"></p>
+            </div>
+            <div class="caja11">
+              <p class="txt1">Media de la clase</p>
+            </div>
+          </div>
+
+          <div class="circulo">
+            <div class="pruRed">
+              <p id="aproTXT3"></p>
+            </div>
+            <div class="caja11">
+              <p class="txt1">Suspensos</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+<script type="text/javascript" src="js/motor2.js"></script>
+
+</html>
